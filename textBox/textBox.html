@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script>
+      window.addEventListener("load",function(){
+        var input = document.querySelector("#input");
+        input.value = Office.Settings.get("text")||"";
+      })
+      function saveData(){
+        var input = document.querySelector("#input");
+        Office.Settings.set("text",input.value);
+      }
+    </script>
+  </head>
+  <body>
+    <input id="input" onchange="saveData()"/>
+  </body>
+</html>
