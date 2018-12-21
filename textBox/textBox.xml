@@ -27,7 +27,7 @@
   <Description DefaultValue="Test-TextBox"/>
   <AppDomains><AppDomain>https://sancarn.github.io</AppDomain></AppDomains>
   <DefaultSettings>
-      <SourceLocation DefaultValue="https://sancarn.github.io/msoAddinTests/textBox.html" />
+      <SourceLocation DefaultValue="http://sancarn.github.io/msoAddinTests/textBox/textBox.html" />
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
 </OfficeApp>
